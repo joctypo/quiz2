@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,700;1,200&display=swap');
+
+body {
+
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+    
+    margin: 0 auto;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body *{
+    width: 100%;
+    
+    
+}
+
+#guardar {
+
+    background: #5DB6E8;
+    border-radius: 7px;
+    height: 41px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#titulos{
+    
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+
+#Tareas{
+    
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+
+}
+
+#descripcion {
+    background: #FFFFFF;
+    border: 2px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 41px;
+    font-family: Nunito;
+}
+
+.Tarea {
+    
+    padding: 10px;
+    width: 28%;
+    border: 1px solid black;
+    /* IMPORTANTE */
+    
+}
+#nombres {
+    background-color: #5DB6E8;
+    padding: 10px;
+    
+    width: 28%;
+    /* IMPORTANTE */
+    
+}
+
+#Cuerpo{
+    display: flex;
+    justify-content: center;
+
+}
+
+#arriba {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.botonbajar{
+
+    background-color: yellow;
+
+}
+
+.botonsubir{
+
+    background-color: mediumblue;
+
+}
+
+.botoneliminar{
+
+    background-color: red;
+
+}
+
+.button {
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    border-radius: 1rem;
+    padding: 8px;
+}
